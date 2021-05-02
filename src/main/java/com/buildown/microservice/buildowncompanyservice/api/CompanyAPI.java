@@ -31,7 +31,7 @@ public class CompanyAPI {
 
 	@GetMapping("/ping")
 	public String ping() {
-		return "Gathri is a inteligent";
+		return "SUCCESS";
 	}
 
 	@PostMapping("/addCompany")
